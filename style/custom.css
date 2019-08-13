@@ -1,0 +1,401 @@
+body {
+    background-color: #07101F;
+    margin: 0px; 
+    padding: 0px;
+}
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: "Cartograph Mono DemiBold";
+    font-weight: demibold;
+    src: url("../font/CartographMono/Demibold/CartographMonoCF-DemiBold.otf") format("truetype");
+    src: url("../font/CartographMono/Demibold/CartographMonoCF-DemiBold.eot") format("embedded-opentype");
+    src: url("../font/CartographMono/Demibold/CartographMonoCF-DemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cartograph Mono Bold";
+    font-weight: bold;
+    src: url("../font/CartographMono/Bold/CartographMonoCF-Bold.otf") format("truetype");
+    src: url("../font/CartographMono/Bold/CartographMonoCF-Bold.eot") format("embedded-opentype");
+    src: url("../font/CartographMono/Bold/CartographMonoCF-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cartograph Mono Medium";
+    font-weight: bold;
+    src: url("../font/CartographMono/Medium/CartographMonoCF-Medium.otf") format("truetype");
+    src: url("../font/CartographMono/Medium/CartographMonoCF-Medium.eot") format("embedded-opentype");
+    src: url("../font/CartographMono/Medium/CartographMonoCF-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cartograph Sans Bold";
+    font-weight: bold;
+    src: url("../font/CartographSans/Bold/CartographSansCF-Bold.otf") format("truetype");
+    src: url("../font/CartographSans/Bold/CartographSansCF-Bold.eot") format("embedded-opentype");
+    src: url("../font/CartographSans/Bold/CartographSansCF-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cartograph Sans Regular";
+    font-weight: bold;
+    src: url("../font/CartographSans/Regular/CartographSansCF-Regular.otf") format("truetype");
+    src: url("../font/CartographSans/Regular/CartographSansCF-Regular.eot") format("embedded-opentype");
+    src: url("../font/CartographSans/Regular/CartographSansCF-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cartograph Sans Medium";
+    font-weight: bold;
+    src: url("../font/CartographSans/Medium/CartographSansCF-Medium.otf") format("truetype");
+    src: url("../font/CartographSans/Medium/CartographSansCF-Medium.eot") format("embedded-opentype");
+    src: url("../font/CartographSans/Medium/CartographSansCF-Medium.woff") format("woff");
+}
+
+#websiteTitle {
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #D8D8D8;
+    font-weight: 700;
+    letter-spacing: .02em;
+
+}
+
+#websiteTitleDescription {
+    font-family: "Cartograph Sans Bold";
+    color: #EE6253;
+    font-size: 20px;
+}
+
+#navTitle { 
+    font-family: "Cartograph Mono Bold";
+    font-size: 36px; 
+    color: #EE6253;
+}
+
+#navTitleMobile { 
+    font-family: "Cartograph Mono Bold";
+    font-size: 48px; 
+    color: #EE6253;
+    text-align: center;
+}
+
+#companyName {
+    font-family: "Cartograph Sans Bold";
+    font-size: 18px; 
+    color: #9599F4;
+    border-bottom: solid 6px #9599F4;
+    padding-bottom: 6px;
+    letter-spacing: .05em;
+}
+
+#caseStudyTitle {
+    font-family: 'Open Sans', sans-serif; 
+    color: #D8D8D8;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: .05em;
+    padding-top: 6px;
+}
+
+#caseStudyDescription { 
+    font-family: 'Open Sans', sans-serif; 
+    color: #D8D8D8;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px
+}
+
+h3 {
+    color: #9599F4;
+    font-family: "Cartograph Sans Bold"; 
+    font-size: 18px; 
+    line-height: 36px;
+    letter-spacing: .5px;
+}
+
+h4 {    
+    color: #D8D8D8;
+    font-family: "Cartograph Sans Bold"; 
+    font-size: 18px; 
+    line-height: 36px;
+    letter-spacing: .5px;
+}
+
+h5 {
+    font-family: "Cartograph Mono Medium";
+    font-size: 24px; 
+    line-height: 60px;
+    padding: 60px 0 60px 0;
+    color: #D8D8D8;
+
+}
+
+#h5 {
+    font-family: "Cartograph Mono Medium";
+    font-size: 18px; 
+    line-height: 60px;
+    padding: 60px 0 60px 0;
+    color: #D8D8D8;
+
+}
+
+#numero {
+    font-family: "Cartograph Sans Regular";
+    font-size: 42px; 
+    line-height: 60px;
+    color: #9599F4;
+}
+
+#bottompadding {
+    padding-bottom: 24px;
+}
+
+#removetopbottompadding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#titlesubtitle {
+    font-family: "Cartograph Sans Medium";
+    font-size: 18px; 
+    line-height: 36px;
+    padding: 60px 0 60px 0;
+    color: #9599F4;
+}
+
+
+p {
+    color: #E3E3E3;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#subtext {
+    font-style: italic;
+}
+
+
+/* Overrides */
+.jumbotron {
+    background-color: #07101F;
+    padding-left: 15px;
+}
+
+#all {
+    padding: 4vw;
+}
+
+#introblock {
+    padding-bottom: 36px;
+}
+
+#caseStudyImg {
+    display: flex;
+    padding: 0;
+}
+
+#caseSummary {
+    padding-bottom: 36px;
+}
+#caseStudy {
+    padding-bottom: 72px;
+}
+
+#caseNav {
+    position: absolute;
+    padding-top: 30px;
+}
+
+#decorative {
+    display: flex;
+}
+
+#decor {
+    display: flex;
+    padding: 0 0 0 36px;
+}
+
+#decormobile {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+#decor-bottom {
+    padding: 90px 0 0 36px;
+}
+
+#decor-bottom-mobile {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+#desktopNav {
+    margin-left: 2em; 
+    margin-top: 240px;
+}
+
+#homespacing {
+    height: 102px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.casestudyheader {
+    height: 120px;
+}
+
+#icon {
+    width: 24px;
+    height: 24px;
+    margin: 0px 24px 48px 0px;
+}
+
+/* Reusable Components */
+
+.btn-sm, .btn-sm:hover, .btn-sm:active, .btn-sm:visited, .btn-sm:focus {
+    background-color: #07101F;
+    color: #fff; 
+    font-family: "Cartograph Mono DemiBold";
+    font-size: 16px; 
+    line-height: 24px;
+    height: 60px;
+    margin: 6px 0 6px 0;
+    text-align: left;
+    border: none;
+    text-shadow: 2px 2px #07101F, 2px -2px #07101F, -2px 2px #07101F, -2px -2px #07101F; 
+}
+
+.activated {
+    border-bottom: 3px solid #EE6253; 
+    padding-bottom: 9px;
+}
+
+.btn-sm:hover #btn-styling {
+    border-bottom: 3px solid #EE6253; 
+    padding-bottom: 9px;
+}
+
+
+
+/*Keyframes*//*Keyframes*//*Keyframes*//*Keyframes*/
+/*Keyframes*//*Keyframes*//*Keyframes*//*Keyframes*/
+/*Keyframes*//*Keyframes*//*Keyframes*//*Keyframes*/
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 2%, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(2%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translate3d(-2%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+
+/* Animations */
+
+#hide {
+    display: none;
+}
+
+  .scene_element {
+    animation-duration: .5s;
+    transition-timing-function: ease-in;
+     -webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+   -webkit-animation-delay: .3s; 
+    animation-delay: .3s;
+    animation-fill-mode: both;
+  }
+
+  .scene_element2 {
+    animation-duration: .5s;
+    transition-timing-function: ease-in;
+     -webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+   -webkit-animation-delay: .8s; 
+    animation-delay: .8s;
+    animation-fill-mode: both;
+  }
+
+  /** An element that fades in */
+  .scene_element--fadein {
+    animation-name: fadeIn;
+  }
+
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+  }
+
+  /** An element that fades in and slides from the right */
+  .scene_element--fadeinright {
+    animation-name: fadeInRight;
+  }
+
+ .scene_element--fadeinleft {
+    animation-name: fadeInLeft;
+  }
