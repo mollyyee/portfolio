@@ -62,7 +62,6 @@ body {
     color: #D8D8D8;
     font-weight: 700;
     letter-spacing: .02em;
-
 }
 
 #websiteTitleDescription {
@@ -81,8 +80,10 @@ body {
     font-family: "Cartograph Mono Bold";
     font-size: 48px; 
     color: #EE6253;
+    padding: 0 0 48px 0;
     text-align: center;
 }
+
 
 #companyName {
     font-family: "Cartograph Sans Bold";
@@ -236,6 +237,7 @@ p {
     margin: 0;
 }
 
+
 #decor-bottom {
     padding: 90px 0 0 36px;
 }
@@ -252,7 +254,7 @@ p {
 }
 
 #homespacing {
-    height: 102px;
+    height: 120px;
 }
 
 a:hover {
