@@ -1,6 +1,11 @@
 body {
     margin: 0px; 
     padding: 0px;
+    background-color: #F6F8FB;
+}
+
+#dt-bg {
+    background-color: #1D1E22
 }
 
 button {
@@ -8,63 +13,26 @@ button {
     margin: 0;
 }
 
+
 /* Fonts */
 
-@font-face {
-    font-family: "Cartograph Mono DemiBold";
-    font-weight: demibold;
-    src: url("../font/CartographMono/Demibold/CartographMonoCF-DemiBold.otf") format("truetype");
-    src: url("../font/CartographMono/Demibold/CartographMonoCF-DemiBold.eot") format("embedded-opentype");
-    src: url("../font/CartographMono/Demibold/CartographMonoCF-DemiBold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Cartograph Mono Bold";
-    font-weight: bold;
-    src: url("../font/CartographMono/Bold/CartographMonoCF-Bold.otf") format("truetype");
-    src: url("../font/CartographMono/Bold/CartographMonoCF-Bold.eot") format("embedded-opentype");
-    src: url("../font/CartographMono/Bold/CartographMonoCF-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Cartograph Mono Medium";
-    font-weight: bold;
-    src: url("../font/CartographMono/Medium/CartographMonoCF-Medium.otf") format("truetype");
-    src: url("../font/CartographMono/Medium/CartographMonoCF-Medium.eot") format("embedded-opentype");
-    src: url("../font/CartographMono/Medium/CartographMonoCF-Medium.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Cartograph Sans Bold";
-    font-weight: bold;
-    src: url("../font/CartographSans/Bold/CartographSansCF-Bold.otf") format("truetype");
-    src: url("../font/CartographSans/Bold/CartographSansCF-Bold.eot") format("embedded-opentype");
-    src: url("../font/CartographSans/Bold/CartographSansCF-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Cartograph Sans Regular";
-    font-weight: bold;
-    src: url("../font/CartographSans/Regular/CartographSansCF-Regular.otf") format("truetype");
-    src: url("../font/CartographSans/Regular/CartographSansCF-Regular.eot") format("embedded-opentype");
-    src: url("../font/CartographSans/Regular/CartographSansCF-Regular.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Cartograph Sans Medium";
-    font-weight: bold;
-    src: url("../font/CartographSans/Medium/CartographSansCF-Medium.otf") format("truetype");
-    src: url("../font/CartographSans/Medium/CartographSansCF-Medium.eot") format("embedded-opentype");
-    src: url("../font/CartographSans/Medium/CartographSansCF-Medium.woff") format("woff");
-}
 
 #websiteTitle {
     font-size: 60px;
     font-family: 'Work Sans', sans-serif;
     color: #25304D;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 66px;
 }
+
+#websiteTitle-dt {
+    font-size: 60px;
+    font-family: 'Work Sans', sans-serif;
+    color: #DFDFE4;
+    font-weight: 600;
+    line-height: 66px;
+}
+
 
 #websiteTitleSmall {
     font-size: 42px;
@@ -74,12 +42,13 @@ button {
     line-height: 48px;
 }
 
+
 #caseHeader {
     font-size: 30px;
     font-family: 'Work Sans', sans-serif;
     color: #25304D;
     font-weight: 500;
-    line-height: 48px;
+    line-height: 42px;
 }
 
 #caseSubheader {
@@ -88,6 +57,27 @@ button {
     font-weight: 200;
     font-size: 22px;
     line-height: 30px; 
+}
+
+#experiencetitle {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 30px;
+    color: #25304D;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+#experiencesubtitle {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    color: #050E23;
+    line-height: 18px;
+}
+
+#light {
+    color: #29334D;
 }
 
 .caseSection {
@@ -125,9 +115,25 @@ button {
     line-height: 36px;
 }
 
+#companyName-dt {
+    font-family: "Work Sans";
+    font-size: 30px; 
+    color: #ECEDF4;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+
 #caseStudyTitle {
     font-family: "Work Sans";
     color: #25304D;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+#caseStudyTitle-dt {
+    font-family: "Work Sans";
+    color: #DFDFE4;
     font-weight: 300;
     font-size: 26px;
     line-height: 36px;
@@ -143,6 +149,18 @@ button {
 .casecard:hover {
     border: solid 6px #000000;
 }
+
+.casecard-dt {
+    border: solid 4px transparent;
+    margin: 0 0 48px 0;
+    transition: all 0.3s;  
+}
+
+
+.casecard-dt:hover {
+    border: solid 4px #D5D7E5;
+}
+
 
 #line {
     border-bottom: solid 6px #000000;
@@ -162,6 +180,14 @@ button {
 #caseStudyDescription { 
     font-family: 'Open Sans', sans-serif; 
     color: #25304D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#caseStudyDescription-dt { 
+    font-family: 'Open Sans', sans-serif; 
+    color: #D5D7E5;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -238,8 +264,12 @@ p {
     color: #0B1530;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#p-dt {
+    color: #D5D7E5;
 }
 
 #subtext {
@@ -249,9 +279,14 @@ p {
 
 /* Overrides */
 .jumbotron {
-    background-color: #ffffff;
+    background-color: #F6F8FB;
     padding-left: 15px;
 }
+
+#jumbo-dt {
+    background-color: #1D1E22;
+}
+
 
 #all {
     padding: 4vw;
@@ -271,6 +306,11 @@ p {
     padding-top: 36px;
 }
 #caseStudy {
+    padding-bottom: 72px;
+}
+
+#caseStudy-dt {
+    padding-top: 12px;
     padding-bottom: 72px;
 }
 
@@ -340,6 +380,7 @@ a:hover {
     padding: 0;
     text-align: left;
     border: none;
+    background-color: #F6F8FB;
 }
 
 .activated {
@@ -350,7 +391,30 @@ a:hover {
 .btn-sm:hover #btn-styling {
     border-bottom: 3px solid #EE6253; 
     padding-bottom: 9px;
+    background-color: #F6F8FB;
 }
+
+
+.btn-sm-dt, .btn-sm-dt:hover, .btn-sm-dt:active, .btn-sm-dt:visited, .btn-sm-dt:focus {
+    color: #D5D7E5; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px; 
+    line-height: 24px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: none;
+    background-color: #1D1E22;
+}
+
+.btn-sm-dt:hover #btn-styling-dt {
+    border-bottom: 3px solid #EE6253; 
+    padding-bottom: 9px;
+    background-color: #1D1E22;
+    color: #D5D7E5; 
+}
+
 
 
 
