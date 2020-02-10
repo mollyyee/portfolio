@@ -1,10 +1,12 @@
 body {
-    background-color: #07101F;
     margin: 0px; 
     padding: 0px;
 }
 
-
+button {
+    padding: 0;
+    margin: 0;
+}
 
 /* Fonts */
 
@@ -57,57 +59,111 @@ body {
 }
 
 #websiteTitle {
-    font-size: 48px;
-    font-family: 'Open Sans', sans-serif;
-    color: #D8D8D8;
+    font-size: 60px;
+    font-family: 'Work Sans', sans-serif;
+    color: #25304D;
     font-weight: 700;
-    letter-spacing: .02em;
+    line-height: 66px;
 }
 
-#websiteTitleDescription {
-    font-family: "Cartograph Sans Bold";
-    color: #EE6253;
-    font-size: 20px;
+#websiteTitleSmall {
+    font-size: 42px;
+    font-family: 'Work Sans', sans-serif;
+    color: #25304D;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+#caseHeader {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    color: #25304D;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+#caseSubheader {
+    font-family: "Work Sans";
+    color: #25304D;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px; 
+}
+
+.caseSection {
+    padding: 60px 0 60px 0;
+}
+
+#arrowicon {
+    width: 24px;
+    height: 24px;
 }
 
 #navTitle { 
-    font-family: "Cartograph Mono Bold";
-    font-size: 36px; 
-    color: #EE6253;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px; 
+    font-weight: 600;
+    color: #FF5A5A;
+    padding-bottom: 18px;
 }
 
 #navTitleMobile { 
-    font-family: "Cartograph Mono Bold";
-    font-size: 48px; 
-    color: #EE6253;
-    padding: 0 0 48px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 42px; 
+    font-weight: 600;
+    color: #F46262;
+    padding: 24px 0 48px 0;
     text-align: center;
 }
 
 
 #companyName {
-    font-family: "Cartograph Sans Bold";
-    font-size: 18px; 
-    color: #9599F4;
-    border-bottom: solid 6px #9599F4;
-    padding-bottom: 6px;
-    letter-spacing: .05em;
+    font-family: "Work Sans";
+    font-size: 30px; 
+    color: #25304D;
+    font-weight: 600;
+    line-height: 36px;
 }
 
 #caseStudyTitle {
-    font-family: 'Open Sans', sans-serif; 
-    color: #D8D8D8;
-    font-weight: 800;
-    font-size: 24px;
-    letter-spacing: .05em;
-    padding-top: 6px;
+    font-family: "Work Sans";
+    color: #25304D;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.casecard {
+    border: solid 6px transparent;
+    margin: 0 0 48px 0;
+    transition: all 0.3s;  
+}
+
+
+.casecard:hover {
+    border: solid 6px #000000;
+}
+
+#line {
+    border-bottom: solid 6px #000000;
+    transition: all 0.1s;  
+}
+
+#line:hover {
+    border-bottom: solid 6px #ffffff;
+}
+
+#thinline {
+    border-bottom: solid 1px #D8E2F8;
+    padding-bottom: 6px;
+    line-height: 12px;   
 }
 
 #caseStudyDescription { 
     font-family: 'Open Sans', sans-serif; 
-    color: #D8D8D8;
-    font-weight: 100;
-    font-size: 16px;
+    color: #25304D;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -128,11 +184,11 @@ h3 {
 }
 
 h4 {    
-    color: #D8D8D8;
-    font-family: "Cartograph Sans Bold"; 
-    font-size: 18px; 
+    color: #3E4453;
+    font-family: "Work Sans";
+    font-size: 20px; 
     line-height: 36px;
-    letter-spacing: .5px;
+    font-weight: 600;
 }
 
 h5 {
@@ -179,11 +235,11 @@ h5 {
 
 
 p {
-    color: #E3E3E3;
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 100;
+    color: #0B1530;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 28px;
 }
 
 #subtext {
@@ -193,7 +249,7 @@ p {
 
 /* Overrides */
 .jumbotron {
-    background-color: #07101F;
+    background-color: #ffffff;
     padding-left: 15px;
 }
 
@@ -207,11 +263,12 @@ p {
 
 #caseStudyImg {
     display: flex;
-    padding: 0;
+    padding: 0 0 18px 0;
 }
 
 #caseSummary {
     padding-bottom: 36px;
+    padding-top: 36px;
 }
 #caseStudy {
     padding-bottom: 72px;
@@ -274,16 +331,15 @@ a:hover {
 /* Reusable Components */
 
 .btn-sm, .btn-sm:hover, .btn-sm:active, .btn-sm:visited, .btn-sm:focus {
-    background-color: #07101F;
-    color: #fff; 
-    font-family: "Cartograph Mono DemiBold";
-    font-size: 16px; 
+    color: #0B1530; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px; 
     line-height: 24px;
-    height: 60px;
-    margin: 6px 0 6px 0;
+    height: 48px;
+    margin: 0;
+    padding: 0;
     text-align: left;
     border: none;
-    text-shadow: 2px 2px #07101F, 2px -2px #07101F, -2px 2px #07101F, -2px -2px #07101F; 
 }
 
 .activated {
