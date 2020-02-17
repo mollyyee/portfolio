@@ -1,0 +1,646 @@
+body {
+    margin: 0px; 
+    padding: 0px;
+    background-color: #F6F8FB;
+}
+
+#dt-bg {
+    background-color: #1D1E22
+}
+
+button {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Fonts */
+
+
+#websiteTitle {
+    font-size: 60px;
+    font-family: 'Work Sans', sans-serif;
+    color: #25304D;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+
+#websiteTitleMobile {
+    font-size: 48px;
+    font-family: 'Work Sans', sans-serif;
+    color: #25304D;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+#websiteTitle-dt {
+    font-size: 60px;
+    font-family: 'Work Sans', sans-serif;
+    color: #DFDFE4;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+
+#websiteTitleSmall {
+    font-size: 42px;
+    font-family: 'Work Sans', sans-serif;
+    color: #25304D;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+
+#caseHeader {
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    color: #25304D;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+#caseSubheader {
+    font-family: "Work Sans";
+    color: #25304D;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 30px; 
+}
+
+#experiencetitle {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 30px;
+    color: #25304D;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+#experiencesubtitle {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    color: #050E23;
+    line-height: 18px;
+}
+
+#light {
+    color: #29334D;
+}
+
+.caseSection {
+    padding: 60px 0 60px 0;
+}
+
+#arrowicon {
+    width: 24px;
+    height: 24px;
+}
+
+#navTitle { 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px; 
+    font-weight: 600;
+    color: #FF5A5A;
+    padding-bottom: 18px;
+}
+
+#mobile_nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #F6F8FB;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+}
+
+#navTitleMobile { 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px; 
+    font-weight: 600;
+    color: #F46262;
+    padding: 24px 0 48px 6px;
+    text-align: left;
+    z-index: 10;
+    justify-content: flex-start;
+}
+
+#spaceholder {
+    height: 60px;
+}
+
+#spaceholder-about {
+    height: 120px;
+}
+
+#companyName {
+    font-family: "Work Sans";
+    font-size: 30px; 
+    color: #25304D;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+#companyName_mobile {
+    font-family: "Work Sans";
+    font-size: 24px; 
+    color: #25304D;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+#companyName-dt {
+    font-family: "Work Sans";
+    font-size: 30px; 
+    color: #ECEDF4;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+
+#caseStudyTitle {
+    font-family: "Work Sans";
+    color: #25304D;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+#caseStudyTitle_mobile {
+    font-family: "Work Sans";
+    color: #25304D;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+}
+#caseStudyTitle-dt {
+    font-family: "Work Sans";
+    color: #DFDFE4;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.casecard {
+    border: solid 6px transparent;
+    margin: 0 0 48px 0;
+    transition: all 0.3s;  
+}
+
+.casecard_mobile {
+    border: solid 6px transparent;
+    margin: 0 0 0px 0;
+    transition: all 0.3s;  
+    width: 100%;
+}
+
+
+.casecard:hover {
+    border: solid 6px #000000;
+}
+
+.casecard-dt {
+    border: solid 4px transparent;
+    margin: 0 0 48px 0;
+    transition: all 0.3s;  
+}
+
+
+.casecard-dt:hover {
+    border: solid 4px #D5D7E5;
+}
+
+
+#line {
+    border-bottom: solid 6px #000000;
+    transition: all 0.1s;  
+}
+
+#line:hover {
+    border-bottom: solid 6px #ffffff;
+}
+
+#thinline {
+    border-bottom: solid 1px #D8E2F8;
+    padding-bottom: 6px;
+    line-height: 12px;   
+}
+
+#caseStudyDescription { 
+    font-family: 'Open Sans', sans-serif; 
+    color: #25304D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#caseStudyDescription-dt { 
+    font-family: 'Open Sans', sans-serif; 
+    color: #D5D7E5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px
+}
+
+h3 {
+    color: #9599F4;
+    font-family: "Cartograph Sans Bold"; 
+    font-size: 18px; 
+    line-height: 36px;
+    letter-spacing: .5px;
+}
+
+h4 {    
+    color: #3E4453;
+    font-family: "Work Sans";
+    font-size: 20px; 
+    line-height: 36px;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: "Cartograph Mono Medium";
+    font-size: 24px; 
+    line-height: 60px;
+    padding: 60px 0 60px 0;
+    color: #D8D8D8;
+
+}
+
+#h5 {
+    font-family: "Cartograph Mono Medium";
+    font-size: 18px; 
+    line-height: 60px;
+    padding: 60px 0 60px 0;
+    color: #D8D8D8;
+
+}
+
+#numero {
+    font-family: "Cartograph Sans Regular";
+    font-size: 42px; 
+    line-height: 60px;
+    color: #9599F4;
+}
+
+#bottompadding {
+    padding-bottom: 24px;
+}
+
+#removetopbottompadding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#titlesubtitle {
+    font-family: "Cartograph Sans Medium";
+    font-size: 18px; 
+    line-height: 36px;
+    padding: 60px 0 60px 0;
+    color: #9599F4;
+}
+
+
+p {
+    color: #0B1530;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#p-dt {
+    color: #D5D7E5;
+}
+
+#subtext {
+    font-style: italic;
+}
+
+
+/* Overrides */
+.jumbotron {
+    background-color: #F6F8FB;
+    padding-left: 21px;
+}
+
+#jumbotron_mobile{
+    padding-left: 6px;
+}
+
+
+#cases_mobile {
+    padding-right: 0; 
+    padding-left: 0;
+    width: 107%; 
+}
+
+#jumbo-dt {
+    background-color: #1D1E22;
+}
+
+
+#all {
+    padding: 4vw;
+}
+
+#introblock {
+    padding-bottom: 36px;
+}
+
+#caseStudyImg {
+    display: flex;
+    padding: 0 0 18px 0;
+}
+
+#caseSummary {
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+#caseStudy {
+    padding-bottom: 72px;
+}
+
+#casestudies_mobile {
+    width: 100%; 
+}
+
+#caseStudy-dt {
+    padding-top: 12px;
+    padding-bottom: 72px;
+}
+
+#caseNav {
+    position: absolute;
+    padding-top: 30px;
+}
+
+#decorative {
+    display: flex;
+}
+
+#decor {
+    display: flex;
+    padding: 0 0 0 36px;
+}
+
+#decormobile {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+
+#decor-bottom {
+    padding: 90px 0 0 36px;
+}
+
+#decor-bottom-mobile {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+#desktopNav {
+    margin-left: 2em; 
+    margin-top: 240px;
+}
+
+#homespacing {
+    height: 120px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.casestudyheader {
+    height: 120px;
+}
+
+#icon {
+    width: 24px;
+    height: 24px;
+    margin: 0px 24px 48px 0px;
+}
+
+.dismiss {
+    position: absolute;
+    z-index: 20;
+    height: 18px;
+    width: 18px;
+    top: 24px;
+    right: 30px;
+}
+
+
+/* Reusable Components */
+
+.btn-sm, .btn-sm:hover, .btn-sm:active, .btn-sm:visited, .btn-sm:focus {
+    color: #0B1530; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px; 
+    line-height: 24px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: none;
+    background-color: #F6F8FB;
+}
+
+.centermenu {
+    text-align: center;
+    height: 72px;
+    color: #0B1530; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px; 
+    line-height: 24px;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.centermenu:active, .centermenu:visited {
+    text-align: center;
+}
+
+.activated {
+    border-bottom: 3px solid #EE6253; 
+    padding-bottom: 9px;
+}
+
+.btn-sm:hover #btn-styling {
+    border-bottom: 3px solid #EE6253; 
+    padding-bottom: 9px;
+    background-color: #F6F8FB;
+}
+
+.mobile_menu{
+    text-align: right;
+    width: 100%;
+    z-index: 20;
+}
+
+.btn-sm-dt, .btn-sm-dt:hover, .btn-sm-dt:active, .btn-sm-dt:visited, .btn-sm-dt:focus {
+    color: #D5D7E5; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px; 
+    line-height: 24px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: none;
+    background-color: #1D1E22;
+}
+
+.btn-sm-dt:hover #btn-styling-dt {
+    border-bottom: 3px solid #EE6253; 
+    padding-bottom: 9px;
+    background-color: #1D1E22;
+    color: #D5D7E5; 
+}
+
+#menu {
+    position: absolute;
+    width: 60px;
+    z-index: 0;
+    top: 12px;
+    right: 3px;
+}
+
+.mobile-menu {
+    background-color: #F6F8FB;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    display: none;
+}
+
+.mobile-box {
+    position: absolute;
+    border: solid 6px #000000;
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 50%;
+    height: 60%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.align {
+    width: 100%;
+}
+
+/*Keyframes*//*Keyframes*//*Keyframes*//*Keyframes*/
+/*Keyframes*//*Keyframes*//*Keyframes*//*Keyframes*/
+/*Keyframes*//*Keyframes*//*Keyframes*//*Keyframes*/
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 2%, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translate3d(2%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translate3d(-2%, 0, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+
+/* Animations */
+
+#hide {
+    display: none;
+}
+
+  .scene_element .mobile-menu {
+    animation-duration: .5s;
+    transition-timing-function: ease-in;
+     -webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+   -webkit-animation-delay: .3s; 
+    animation-delay: .3s;
+    animation-fill-mode: both;
+  }
+
+ 
+
+  /** An element that fades in */
+  .scene_element--fadein {
+    animation-name: fadeIn;
+  }
+
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+  }
+
+  /** An element that fades in and slides from the right */
+  .scene_element--fadeinright {
+    animation-name: fadeInRight;
+  }
+
+ .scene_element--fadeinleft {
+    animation-name: fadeInLeft;
+  }
