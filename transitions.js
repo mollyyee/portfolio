@@ -13,6 +13,14 @@ $(document).ready(function(){
         $(".mobile-menu").fadeOut(200);
       });
 
+      $("#menu-dt").click(function(){
+        $(".mobile-menu").fadeIn(200);
+      });
+
+      $(".dismiss").click(function(){
+        $(".mobile-menu").fadeOut(200);
+      });
+
     $('.casecard').hover(
         function () 
             {
