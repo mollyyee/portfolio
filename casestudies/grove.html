@@ -8,174 +8,112 @@
     <meta name="author" content="Molly Yee">
     <link rel="stylesheet" type = "text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type = "text/css" href="../style/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Mono:400,500|Work+Sans:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type = "text/javascript" src = "./style/jquery.smoothState.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="../assets/favicon.png"/>  
     <title>Molly's Portfolio</title> 
     </head>
 <body>
 
+<div class = "container-fluid" id = "all">
 
-
-    <div class = "container-fluid" id = "all">
-            <div class = "row">
-                    <div class = "d-md-none col-sm-12">
-                    <a href = "../index.html" name = "top"> 
-                    <p id = "navTitleMobile" alt = "Return Home">  m. </p>
-                    </a>
-                    </div>
-                    </div>
-                <div class = "row col-6 d-none d-md-block">
-                    <a href = "../index.html" name = "top"> 
-                    <p class = "casestudyheader" id = "navTitle">  m. </p>
-                    </a>
-                    </div>
-        <div class = "row scene_element scene_element--fadeinup">
-                <div class ="col-sm-12 col-md-8 col-l-6 col-xl-6" id = "caseIntro"> 
-                    <h3>Grove Collaborative</h3>
-                    <h2> Growth hacking with transparency </h2> 
-                    <p> 
-                            <br>
-                    Good design should be clear and transparent. Clarity and transparency can help businesses achieve their business goals. By putting the well-being of the user first, I redesigned a referral flow that drastically improved our conversion rates.
-                    </p>
-                    </div> 
-                <div class = "d-none d-md-block col-xl-3 offset-xl-9 col-lg-3 offset-lg-9 col-md-4 offset-md-8" id = "caseNav">
-                    <a href = "#overview">
-                    <button class = "btn-sm col-12"> <span id = "btn-styling"> Overview</span> </button>
-                    </a>
-                    <a href = "#process">
-                    <button class = "btn-sm col-12"> <span id = "btn-styling">Process</span> </button>
-                    </a>
-                    <a href = "#impact">
-                    <button class = "btn-sm col-12"> <span id = "btn-styling">Impact</span> </button>
-                    </a>
-                    </div>
-            </div>
-        </div> 
-    <div class = "row scene_element scene_element--fadeinup">
-        <img src ="../assets/grove.jpg" class = "container-fluid" id = "caseStudyImg" alt = "Mockups for Automated Datacenter Workflow">
+        <div class = "row d-none d-md-block" id = "homespacing">
         </div>
-    <div class = "container-fluid" id = "all">
-        <div class = "row col-sm-12 col-md-9 col-l-9 col-xl-9" id = "caseSummary">
-            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6">
-                 <a name = "overview">
-                <h4> Role </h4>
-                  </a>
-
-                <p> Lead Designer</p>
-            </div>
-            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6" id = "introblock">
-                    <h4> Product </h4>
-                    <p> Grove is a green eCommerce supbscription service that sells natural home products in recurring shipments.
-                    </p>          </div>
-            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6" id = "introblock">
-                <h4> Kudos </h4>
-                <p> Chris Cichon (senior marketing manager) </p>
-                <p> Willis Jackson (product manager)  </p>
-                <p> Eric Koo (data analyst) </p>
-                <p> Conor Carey (developer) </p>           
-             </div>
-            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6" id = "introblock">
-                <h4> Impact </h4>
-                <p> The redesign quadrupled page conversions and increase site traffic through referrals by 50%. </p>
-            </div>
-
-        </div>
-        <div class = "row col-12">
-        <div class = "col-12">
-            <a name = "process">
-            <h2> The original design required too much guesswork. </h2>
-            </a>
-            <br>
-           </div>
-            </div>
-    </div>
-    <div class = "row">
-            <img src ="../assets/oldmocks.png" class = "container-fluid" id = "caseStudyImg" alt = "Original Design">
-            </div>
-
-    <div class = "container-fluid" id = "all">
-       <div class = "row col-sm-12 col-md-9 col-l-9 col-xl-9" id = "caseSummary">
-            <div class = "col-12">
-                 <p id = "subtext"> Original design</p>
-            </div>
-            <div class = "col-12">
-                    <p> <br> <br> <br> Unlike other typical referral flows, we required users to share the referral link twice, through two modes of social media before receiving their reward. Looking above, it's hard to tell that that's the expectation. <br> <br> <br> </p>
-            <h2> Ideate until nobody's saying "Hey, that's sneaky!" </h2>
-                </div>
-            </div>
-    </div>
-
-    <div class = "row">
-            <img src ="../assets/newmocks.png" class = "container-fluid" id = "caseStudyImg" alt = "Original Design">
-            </div>
-
-
-    <div class = "container-fluid" id = "all">
-            <div class = "row col-sm-12 col-md-9 col-l-9 col-xl-9" id = "caseSummary">
-            <div class = "col-12">
-            <p> 
-                <br>
-                <br>
-            "Hey, that's sneaky!" is something someone actually said in one of three rounds of usability tests with 14 people. People weren't used to having to do two things when referring their friends.  
-            We had to be extra clear and lead users by presenting the next step's clear call to action. 
-            <br> <br> <br> 
-           </p> 
-           <h2>Then converge.</h2> 
-            </div>
-        </div>
-    </div>
-
         <div class = "row">
-                <img src ="../assets/designs.png" class = "container-fluid" id = "caseStudyImg" alt = "Final Design">
-                </div>
-
-    <div class = "container-fluid" id = "all">
-            <div class = "row col-sm-12 col-md-9 col-l-9 col-xl-9" id = "caseSummary">
-            <div class = "col-12">
-                    <p> 
-                        <br>
-                        <br>
-                    These are the final designs we landed on based on 3 rounds of usability tests on 14 people. You could check it out live at grove.co/referral/share.
-                    <br> <br> <br> 
-                </p>     
-
-            <a name ="impact">
-                    <h2> Results. </h2>
-                </a>
-                <br>
-                <br>
-            <div class = "d-none d-md-block">
-            <img src ="../assets/results.png" class = "container-fluid" id = "caseStudyImg" alt = "Data following the launch of the redesign">
+            <div class ="d-md-none col-sm-12" id = "mobile_nav"> 
+            <a href = "./index.html">
+            <p id = "navTitleMobile">  m. yee</p>
+            </a>
             </div>
+            <div class ="d-none d-md-block col-xl-2 col-lg-2 col-md-2 col-xl-2 fixed-top" id = "desktopNav">
+            <p id = "navTitle"> m. yee </p>
+            <a href = "../index.html">
+            <button class = "btn-sm col-12"> <span id = "btn-styling"> Work</span> </button> </a>
+            <a href = "../afterhours.html">
+            <button class = "btn-sm col-12"> <span id = "btn-styling">After Hours</span> </button> </a>
+            <a href = "../about.html">
+            <button class = "btn-sm col-12"> <span id = "btn-styling">About</span> </button>
+            </a>
             </div>
-        </div>
-    </div>
-    <div class = "row d-md-none col-sm-12">
-            <img src ="../assets/results.png" class = "container-fluid" id = "caseStudyImg" alt = "Final Design">
-            </div>
-
-    <div class = "container-fluid" id = "all">
-            <div class = "row col-sm-12 col-md-9 col-l-9 col-xl-9" id = "caseSummary">
-
-            <div class = "row col-12" id = "footer">
-                    <div class = "col-xs-12 col-s-4 col-m-4 col-l-4 col-xl-4">
-                        <a href = "../index.html">
-                        <button class = "btn-sm col-12" src = "../index.html"> <span id = "btn-styling"> Back Home</span> </button>
-                         </a>          
-                         </div>
-                        <div class = "col-xs-12 col-s-4 col-m-4 col-l-4 col-xl-4">
-                        <a href = "#top">
-                            <button class = "btn-sm col-12"> <span id = "btn-styling"> To The Top</span> </button>
-                            </a>
-                        </div>
-                        <div class = "col-xs-12 col-s-4 col-m-4 col-l-4 col-xl-4">
-                        <a href = "./friendship.html">
-                                <button class = "btn-sm col-12"> <span id = "btn-styling"> Next Case Study</span> </button>
-                        </a>
-                            </div>
+            <div class = "scene_element scene_element--fadeinup col-xl-9 offset-xl-2 col-lg-9 offset-lg-2 col-md-10 offset-md-2 col-sm-12" id = "casestudies ">
+                <div class = "jumbotron col-sm-12 col-md-12 col-l-11 col-xl-10">
+                    <p id = "websiteTitleSmall"> Grove Collaborative</p>
+                    <p id = "caseStudyTitle"> Growth hacking with transparency<br> <br>
                     </div>
+                <div class = "container-fluid" id = "caseStudy">
+                    <img src ="../assets/grove.jpg" class = "container-fluid" id = "caseStudyImg" alt = "Mockups for Automated Datacenter Workflow">
+                    <div class = "caseSection col-l-9 col-xl-9 col-m-10">
+                    <p id = "caseHeader"> Good design should be clear and transparent. </p>
+                    <p id = "caseStudyTitle"> Clarity and transparency can help businesses achieve their business goals. I redesigned a referral flow that drastically improved our conversion rates.
+                        <br> <br>                        
+                    </div>
+                    <p id = "thinline">  </p>
+                </div>
+                    <div class = "row col-sm-12 col-md-12 col-l-12 col-xl-12" id = "caseSummary">
+                            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6">
+                                <h4> Role </h4>
+                                <p> Lead Designer</p>
+                            </div>
+                            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6" id = "introblock">
+                                <h4> Kudos </h4>
+                                <p> Chris Cichon (senior marketing manager) </p>
+                                <p> Willis Jackson (product manager)  </p>
+                                <p> Eric Koo (data analyst) </p>
+                                <p> Conor Carey (developer) </p>  
+                            </div>
+                            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6" id = "introblock">
+                                <h4> Impact </h4>
+                                <p> The redesign quadrupled page conversions and increase site traffic through referrals by 50%. </p>
+                            </div>
+                            <div class = "col-sm-12 col-md-6 col-l-6 col-xl-6" id = "introblock">
+                                <h4> Product </h4>
+                                <p> Grove is a green eCommerce supbscription service that sells natural home products in recurring shipments.</p>
+                                </div>
+                        </div>  
+                        <p id = "thinline">  </p>
+                <div class = "container-fluid" id = "caseStudy">
+                        <div class = "caseSection col-l-9 col-xl-9 col-m-10">
+                            <p id = "caseHeader"> The original design required too much guesswork. </p>
+                            </div>
+                            <br>
+                            <br>
+                            <img src ="../assets/oldmocks.png" class = "container-fluid" id = "caseStudyImg" alt = "Mockups for Automated Datacenter Workflow">
+                        <div class = "caseSection col-l-9 col-xl-9 col-m-10">
+                            <p> Unlike other typical referral flows, we required users to share the referral link twice, through two modes of social media before receiving their reward. Looking above, it's hard to tell that that's the expectation. </p>
+                           <br>
+                           <br>
+                           <p id = "thinline">  </p>
+                        </div>
+                        <div class = "caseSection col-l-9 col-xl-9 col-m-10">
+                            <p id = "caseHeader"> Ideating to visually setting expectations. </p>
+                        </div>
+                            <img src ="../assets/newmocks.png" class = "container-fluid" id = "caseStudyImg" alt = "Original Design">
+                   
+                            <p> One research participant exclaimed, "Hey, that's sneaky!" in one of three rounds of usability tests with 14 people. People weren't used to having to do two things when referring their friends.  
+                                We had to be extra clear and lead users by presenting the next step's clear call to action. </p>                            
+                            <br>
+                            <p id = "caseHeader"> Then converge. </p>
+                            <img src ="../assets/designs.png" class = "container-fluid" id = "caseStudyImg" alt = "Final Design">
+                            <p> These are the final designs we landed on based on 3 rounds of usability tests on 14 people. You could check it out live at grove.co/referral/share.
+                            </p>
+                            <p id = "caseHeader"> Results. </p>
+                            <img src ="../assets/results.png" class = "container-fluid" id = "caseStudyImg" alt = "Data following the launch of the redesign">
+
+                        </div>
+                            
+                       
+                    </div>               
+                    </div>
+            </div>
         </div>
+
+
+
+
+
+
 
 
 </body>
