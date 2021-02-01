@@ -1,0 +1,65 @@
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <meta name = "description" content = "Product designer based in San Francisco, currently at VMware.">
+    <meta name="keywords" content="Molly Yee, product design portfolio, UX, San Francisco">
+    <meta name="author" content="Molly Yee">
+    <link rel="stylesheet" type = "text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type = "text/css" href="./style/custom.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png"/>  
+    <title>Molly's Portfolio</title> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type = "text/javascript" src = "./style/jquery.smoothState.min.js"></script>
+    <script src = "./style/transitions.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Molly's Portfolio</title> 
+    </head>
+
+
+<body>
+
+    <div class = "body-container">
+    <div class = "navbar">
+            <div class = "home-buttons"> <span class = "underline active header" id = "active-dt-about-marker"> molly </span> </div>
+            <div class = "page-buttons"> <a href = "./index.html"> <span class = "underline button " > Nine to Five</span></a> <a href = "./afterhours.html"><span class = "underline button" > After Hours</span> </a></div>
+            </div>
+
+    <div class = "about-space"></div>    
+
+    <div class="left-text col-sm-12 col-xs-12 col-md-9 col-l-6 col-xl-6">
+        <div id = "about-header"> Thanks for dropping by.</div>
+        <p> My name is Molly Yee, a first-gen American product designer based in San Francisco. My parents hail from Cambodia and Malaysia, and I’m proud of them. 
+            <br> <br>
+            I currently design for VMware, where I specialize in complex technical domains like virtual infrastructure, monitoring and troubleshooting tools, data visualization at scale, and APIs.  
+            <br>  <br>
+            Prior, I studied at UC Berkeley, where I made my own interdisciplinary major to study product design. 
+            <br>  <br>
+            In this business of creating compelling visual narratives out of ambiguity, my favorite projects are those where I get to collaborate with thoughtful people who care deeply about quality and craft.
+            <br>
+            <img class = "about-photo" src = "./assets/molly.jpg">
+        </div>
+
+    <div class = "social">
+        <a href = "https://www.linkedin.com/in/mollyyee" target = "blank"> <span class = "button underline" id = "social-button" > LinkedIn</span> </a>
+        <a href = " https://medium.com/@mollyingaround" target = "blank"> <span class = "button underline" id = "social-button" > Dribbble</span> </a>
+        <a href = "https://dribbble.com/mollsyee" target = "blank"> <span class = "button underline" id = "social-button" >Medium</span> </a>
+    </div>
+
+    <div class = "about-space"> <span id = "greeting" style="display:none;"></span></div>    
+    </div>
+
+
+    <div id = "background" >
+            <img class = "gradient" id ="sunrise" onload = "fadeInTime(this)" src = './assets/sunrise.png' style = "display:none;">
+            <img class = "gradient" id ="morning" onload = "fadeInTime(this)" src = './assets/morning.png' style = "display:none;">
+            <img class = "gradient" id ="day" onload = "fadeInTime(this)" src = './assets/day.png' style = "display:none;">
+            <img class = "gradient" id ="sunset" onload = "fadeInTime(this)" src = './assets/sunset.png' style = "display:none;">
+            <img class = "gradient" id ="night" onload = "fadeInTime(this)" src = './assets/night.png' style = "display:none;">
+        </div>
+</body>
