@@ -68,7 +68,7 @@ window.onload = function sunRise(obj) {
 
 //8pm-5am nighttime 
     else {
-        $("#moon").animate({"margin-top": "-240px", "opacity": "1"}, 2400);
+        $("#moon").animate({"top": "210px", "opacity": "1"}, 2400);
         $("#greeting").animate({"opacity": '1'}, 1000);
         document.getElementById('greeting').innerHTML = "Good Evening";
         $('#night').fadeIn(2000);
