@@ -17,11 +17,11 @@ function fadeInTime(obj) {
             $('#morning').fadeIn(2000);}
 
     //11-5pm day
-        else if (time>=12 && time<=17) {
+        else if (time>=12 && time<=16) {
             $('#day').fadeIn(2000);}
     
     //5-8pm sunset start
-        else if (time>=18 && time<=19) {
+        else if (time>=17 && time<=19) {
             $('#sunset').fadeIn(2000);}
     
     //8pm-5am nighttime 
@@ -53,14 +53,14 @@ window.onload = function sunRise(obj) {
         $("#greeting").animate({"opacity": '1'}, 1000);}
 
 //11-5pm day
-    else if (time>=12 && time<=18) {
+    else if (time>=12 && time<=17) {
         $("#circle").animate({"margin-top": "-300px", "opacity": ".5"}, 2400);
         document.getElementById('greeting').innerHTML = "Good Afternoon";
         $("#greeting").animate({"opacity": '1'}, 1000);}
 
 
 //5-8pm sunset start
-    else if (time>=19 && time<=20) {
+    else if (time>=18 && time<=19) {
         $("#circle").animate({"margin-top": "90px", "opacity": ".5"}, 2400);
         document.getElementById('greeting').innerHTML = "Good Evening";
         $("#greeting").animate({"opacity": '1'}, 1000);}
@@ -68,7 +68,7 @@ window.onload = function sunRise(obj) {
 
 //8pm-5am nighttime 
     else {
-        $("#circle").animate({"margin-top": "60px", "opacity": ".5"}, 2400);
+        $("#moon").animate({"margin-top": "-240px", "opacity": "1"}, 2400);
         $("#greeting").animate({"opacity": '1'}, 1000);
         document.getElementById('greeting').innerHTML = "Good Evening";
         $('#night').fadeIn(2000);
