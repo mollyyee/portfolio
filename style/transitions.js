@@ -47,7 +47,7 @@ window.onload = function sunRise(obj) {
         document.getElementById('greeting').innerHTML = "Good Morning";
         $("#greeting").animate({"opacity": '1'}, 1000);}
 // 8-11am morning
-    else if (time>=8 && time<=12) {
+    else if (time>=8 && time<=11) {
         $("#circle").animate({"margin-top": "60px", "opacity": ".5"}, 2400);
         document.getElementById('greeting').innerHTML = "Good Morning";
         $("#greeting").animate({"opacity": '1'}, 1000);}
