@@ -13,6 +13,7 @@ body {
     background-color: #0F1A23;
     width: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a, a:hover{
@@ -64,6 +65,12 @@ a, a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.flex-main { 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .flex { 
