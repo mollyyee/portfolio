@@ -1,7 +1,35 @@
-
 var current= new Date()
 var time=current.getHours()
+var input = document.getElementById("pw-field");
+var button = document.getElementById("pw-button");
+// if(button){
+//     button.addEventListener("click", validate);
+// }
+// console.log("WORKS");
 
+// $(document).on('click', button, function() {
+//     if (input.value === 'molly') { 
+//         console.log("WORKS");
+//         //  window.open('./team.html');
+//       } else {  
+//          input.focus(); // <-- If you don't do this first, your select code won't work
+//          input.setSelectionRange(0, input.value.length);   
+//          alert('Invalid Password!'); 
+//       }
+// });
+
+
+// // function validate(){
+// //   if (input.value === 'molly') { 
+// //     console.log("WORKS");
+// //      // No need to add a "show" class. Just remove the "hidden" class.
+// //     //  window.open('./team.html');
+// //   } else {  
+// //      password.focus(); // <-- If you don't do this first, your select code won't work
+// //      password.setSelectionRange(0, password.value.length);   
+// //      alert('Invalid Password!'); 
+// //   }
+// // }
 
 
 function fadeIn(obj) {
@@ -85,6 +113,8 @@ window.onload = function sunRise(obj) {
         $( "p" ).addClass("dt");
         $( "h6" ).addClass("dt");
         $( "h4" ).addClass("dt");
+        $( "h3" ).addClass("dt");
+        $( "h2" ).addClass("dt")
         $('.company-title').attr('class', 'company-title-dt');
         $('.case-header').attr('class', 'case-header-dt');
         $('.casestudy-description').attr('class', 'casestudy-description-dt');        
