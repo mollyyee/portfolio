@@ -41,55 +41,161 @@
 
     <div class = "flex case-summary">
         <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
-            <h4> Creating tooling to establish API standards and documentation for 100+ products </h4>
-            <p> Every major SaaS company has good developer experience. As VMware transitions more to SaaS, this became not only important for internal developer productivity, but also our SaaS transformation. 
-                <br> <br>
-                First, we built scoring mechanisms to create visibility around the company’s current API quality. Then, we added on diagnostics and analytics to help developers quickly identify issues and fix them. And my amazing engineers built tools that autogenerate documentation and bindings as I designed the documentation reference site. 
-                <br> <br>
-                With what we built, my small team of 5 created momentum throughout our enterprise and saw teams begin to dedicate resources towards improving API quality. 
+            <h2> PROJECT CONTEXT</h2>
+            <h3> With no API standard, building delightful cross-product experiences at scale are near impossible.  </h3>
+            <p> As VMware transitions to SaaS, user experience is becoming critical to our business. In order to build cross-product experiences, internal teams need to be able to call each other’s APIs. However, a lack of API standards, consistent documentation and analytics for our wide set of APIs that made this extremely difficult. 
             </p>
         </div>
-        <div class = "roles-desktop d-none d-lg-block col-xl-5 col-lg-5 ">
+    </div>
+    <div class = "flex case-summary no-padding">
+    <div class = "row-flex write-up no-padding col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+        <div class = "third">
             <h6> Role </h6>
-            <p> Sole Designer <br> <br> </p> 
-            <h6> Team </h6>
-            <p> Steve T. (Eng Manager) <br>
-                    Dave S. (Eng Architect)<br>
-                    Philip L. (Eng)<br>
-                    Josh K. (Eng)<br>
-                    Gabe H. (UX Researcher)</p> 
+            <p> Sole Designer</p> 
         </div>
-        <div class = "roles-mobile d-lg-none d-md-block col-md-12 col-sm-12 col-xs-12">
-            <div class = "row-flex">
-            <div class = "half">
-                <h6> Role </h6>
-                <p> Sole Designer</p> 
-            </div>
-            <div class = "half">
-            <h6> Team </h6>
-            <p> Steve T. (Eng Manager) <br>
-                    Dave S. (Eng Architect)<br>
-                    Philip L. (Eng)<br>
-                    Josh K. (Eng)<br>
-                    Gabe H. (UX Researcher)</p> 
-            </div>
+        <div class = "third">
+        <h6> Team </h6>
+        <p> 8 Eng, 1 Researcher </p> 
+        </div>
+        <div class = "third">
+            <h6> Time </h6>
+            <p> 4 Months </p> 
             </div>
         </div>
     </div>
+
+    <div class = "case-summary bottom-padding flex top-padding">
+        <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <h2> MY CONTRIBUTION</h2>
+                <p> I wrote E2E scripts, created storyboards, re-worked broken workflows,  prototyped an analytics platform, and defined a visual brand for our solution. I relied on the insights our UX researcher found and my engineer’s domain knowledge of my engineers. All of this combined led to the solutions you see below. 
+                </p>
+            </div>
+    <!-- <div class = "pw-component write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 ">
+        <h5> Psst. What's the password?</h5>
+        <p> For the full case study, enter the password.</p>
+        <input type = "password" id="pw-field"> <br>
+        <button type = "button" id ="pw-button"> Enter </button>
+    </div> -->
+    </div>
+
+    <div class ="pw-protected">
+    <div class = "flex case-summary bottom-padding">
+        <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+            <h2> THE SOLUTION</h2>
+            <h3> First, we needed to create visibility around the state of our APIs.  </h4>
+            <p> We built analytics and scoring for all the APIs. Without proper analytics, it was impossible for us to understand how teams were doing, where we needed improvements, and which APIs were most important to customers. </p>
+        </div>
+    </div>
+
+    <img class = "full-width" src ="../assets/leaderboard.svg">
+
+
+
+
+    <div class = "flex case-summary">
+        <div class = "write-up bottom-padding col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+            <p> I designed a leaderboard to display scoring for API quality across our 100 products. We didn’t have any official “authority” to improve API quality. A leaderboard was a soft influence approach to quickly provide value and visibility to executives who did have that authority. </p>
+        </div>
+        </div>
+
+    <div class = "full-width row-flex wrap">
+        <div class = "api-box col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="api-bg">
+            <div class ="box-content bottom-padding-3">
+            <img class = "full-width bottom-padding-2" src ="../assets/api-tile1.svg"> 
+            <span class = "p2 top-padding-2"> We gave leadership a way to definitively evaluate the state of APIs at VMware. </span>
+            </div>
+            </div>
+        </div>
+        <div class = "api-box col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                <div class="api-bg">
+                <div class ="box-content top-padding-3">
+                <span class = "p2 "> 
+                As a small team of seven in a company of 30,000, we relied on soft influence to improve API quality. A leaderboard was a fun way to reward well-crafted APIs.  Top quality teams received medals for holding the best scores!     
+                </span>
+                <br>
+                <img class = "full-width top-padding-2" src ="../assets/api-tile2.svg"> 
+                </div>       
+                </div>
+                </div>
+
+    </div>
+
+    <div class = "flex case-summary">
+            <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 bottom-padding">
+                <h3> Now that we understand quality, the next step is to improve it.  </h4>
+                <p> We created diagnostics for each team's specs. After getting a general sense of quality, teams wanted to know what they could do immediately to improve quality. We laid out four pillars that influenced their scores, showing  </p>
+            </div>
+        </div>
+    
+        <img class = "full-width bottom-padding" src ="../assets/diagnostics.svg">
+
+        <div class = "full-width row-flex wrap">
+            <div class = "api-box col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                    <div class="api-bg">
+                    <div class ="box-content top-padding-3">
+                    <span class = "p2 "> 
+                    It was important that people understood why they were scored a certain way, and which aspects of their spec could be improved.
+                    </span>
+                    <br>
+                    <img class = "full-width top-padding-2" src ="../assets/api-tile3.svg"> 
+                    </div>       
+                    </div>
+                    </div>
+                <div class = "api-box col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="api-bg">
+                    <div class ="box-content bottom-padding-3">
+                    <img class = "full-width bottom-padding-2" src ="../assets/api-tile4.svg"> 
+                    <span class = "p2 top-padding-2"> We display the line of code where the error is and how to fix issues. </span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class = "flex case-summary">
+                <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 bottom-padding">
+                    <h3> Then we needed to prevent problematic APIs from going out.  </h4>
+                    <p> 
+                    On top of fixing existing APIs to improve quality, engineer architects conducted reviews to prevent low quality APIs from being shipped. Some of these architects were responsible for dozens of microservices. It was difficult to manage quality. I designed the change logs that helped architects quickly find “problem APIs.”
+                    </p>
+                </div>
+            </div>
+        
+            <img class = "full-width" src ="../assets/changelog.svg">
+
+            <div class = "flex case-summary">
+                <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <h3> Project Impact </h4>
+                <p> 
+                When teams saw the analytics, they created Jira tickets with our data to begin logging issues to improve their API quality. Our strategy was working! Teams were getting the visibility they needed into their API health and taking action to fix issues. 
+                </p>
+                </div>
+                </div>
+
+            <div class = "flex case-summary">
+                <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 bottom-padding">
+                <h3> Next Steps </h4>
+                <p> 
+                We want to continue adding more useful data to our analytics platform. We want to include Google Analytics information and telemetry data to give product teams a sense of usage. This way we can add a layer of criticality on top of our data and begin prioritizing APIs by how frequently customers use them. 
+                </p>
+                </div>
+                </div>
+
+            <div class = "flex case-summary top-padding">
+                <div class = "write-up col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 bottom-padding">
+                <a href = " ./automated.html" > <button>View Next Case Study</button> </a> <br>
+                </div>
+                </div>
+
+
+            </div>
+
 
     <div class = "about-space"> <span id = "greeting" style="display:none;"></span></div>    
 
 
 
-    <div class = "social">
-            <a href = "./automated.html" > <span class = "button underline" id = "social-button" > Next Project</span> </a>
-            <a href = " ../index.html" > <span class = "button underline" id = "social-button" > All Projects</span> </a>
-        </div>
-
-
-    <div class = "left-footer">
-            <span class = "dates" > Designed & built by Molly Yee in 2021</span> 
-    </div>
+</div>
 
     </div>
 
