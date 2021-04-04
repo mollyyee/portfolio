@@ -115,6 +115,7 @@ window.onload = function sunRise(obj) {
         $( "h4" ).addClass("dt");
         $( "h3" ).addClass("dt");
         $( "h2" ).addClass("dt")
+        $( "li" ).addClass("dt")
         $('.company-title').attr('class', 'company-title-dt');
         $('.case-header').attr('class', 'case-header-dt');
         $('.casestudy-description').attr('class', 'casestudy-description-dt');        
