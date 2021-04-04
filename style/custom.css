@@ -143,6 +143,11 @@ a, a:hover{
 }
 
 
+.ao-bg {
+    background: linear-gradient(#DBDFE8, #B3C0DE);
+    height: 100%;
+}
+
 
 .api-bg {
     background: linear-gradient(#D7E1E5, #C1D8E3);
@@ -321,6 +326,16 @@ h2 {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
+    color: #47505F;
+}
+
+li {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 9px;
     color: #47505F;
 }
 
