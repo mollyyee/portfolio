@@ -58,9 +58,23 @@ a, a:hover{
     z-index: 10;
 }
 
+nav {
+    padding: 30px 0 6px 0;
+    z-index: 10;
+}
+
+.home-buttons {
+    float: left;
+}
+
+.page-buttons {
+float: right;
+}
+
 .hero {
     z-index: 10; 
     height: 70%;
+    width: 100%;
     min-height: 580px;
     display: flex;
     justify-content: center;
@@ -97,12 +111,13 @@ a, a:hover{
     margin: 12px 0 0 0;
 }
 
-.footer {
+footer {
     height: 48px;
     display: flex;
     flex-direction: row;
     margin-bottom: 36px;
 }
+
 
 .left-footer {
     height: 48px;
@@ -134,8 +149,8 @@ a, a:hover{
 }
 
 .api-box {
-    padding-right: 6px;
-    margin-top: 12px;
+    padding: 0 6px 0 0;
+    margin: 12px 0 0 0;
 }
 
 .box-content {
@@ -367,7 +382,8 @@ li {
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    padding-bottom: 6px;
+    padding: 0 0 6px 0;
+
 }
 
 
