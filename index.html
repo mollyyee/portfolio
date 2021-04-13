@@ -26,18 +26,24 @@
 
 <body>
 
+    
 <div class = "body-container">
-    <div class = "navbar">
-        <div class = "home-buttons"> <a href = "./about.html"><span class = "underline header"> molly </span> </a></div>
-        <div class = "page-buttons"> <span class = "underline button active" id = "active-dt-marker" > Nine to Five</span> <a href = "./afterhours.html"><span class = "underline button" > After Hours</span> </a></div>
-        </div>
+<nav>
+    <div class = "home-buttons"> <a title = "About Molly Yee" href = "./about.html"><span class = "underline header" > molly </span> </a></div>
+    <div class = "page-buttons"> 
+        <span class = "underline button active" id = "active-dt-marker" tabindex ="0" alt = "You are currently on this page, which has product design case studies Molly works on during her day job."> Nine to Five</span> 
+        <a href ="./afterhours.html" title = "This page has 3 projects that Molly does for fun outside work."><span class = "underline button"> After Hours</span></a> </div>
+</nav>  
 
-    <div class="hero">
+
+    <div class="hero">  
         <div>
-        <div class = "flex-main"> <span id = "greeting" > . </span> </div>
+        <div class = "flex-main" > 
+            <h1 id = "greeting">.</h1>
+        </div> 
         <div class = "flex-main"> 
             <div class = "horizontal-center corner-internet">
-            <span class = "description" > Welcome to a digital product designer’s corner of the internet. </span> </div>
+            <span class = "description" role = "heading" aria-level = "2"> Welcome to a digital product designer’s corner of the internet. </span> </div>
             </div>
         <div class="vertical-line"></div>
         </div>
@@ -45,40 +51,42 @@
         </div>
         </div>
 
-    <a href = "./cases/api.html">
+    <a title = "API Analytics" alt = "A case study about an analytics platform that transformed API quality at an enterprise" href = "./cases/api.html">
     <div class = "case">
         <div class = "flex-main"> <span class = "dates" > 2020-2021 </span> </div>
         <div class = "flex-main"> <span class = "title" > API Analytics</span> </div>     
         <div class = "flex-main"> <span class = "case-description" > An analytics platform to transform API quality at an enterprise </span> </div>     
-        <img class = "case-image no-padding" src = "./assets/cover-api.svg"> 
+        <img class = "case-image no-padding" alt = "A prototype screen of our analytics leaderboard that ranks different teams in the company by API quality. The visual look of the prototype is based off of the way steel or other cool metals feel." src = "./assets/cover-api.svg"> 
         </div>
     </a>
 
     <div class="vertical-line" id = "case-line"></div>
 
-    <a href = "./cases/automated.html">
+    <a title = "Automating Operations for Datacenters" alt ="A case study about virtual infrastructure optimizations to prevent performance issues" href = "./cases/automated.html">
     <div class = "case">
             <div class = "flex-main"> <span class = "dates" > 2018-2019 </span> </div>
             <div class = "flex-main"> <span class = "title" > Automating Ops for Datacenters</span> </div>     
-            <div class = "flex-main"> <span class = "case-description" > Virtual infrastructure optimizations to prevent performance issues.   </span> </div>     
-            <img class = "case-image no-padding" src = "./assets/cover-automated.svg"> 
+            <div class = "flex-main"> <span class = "case-description" > Virtual infrastructure optimizations to prevent performance issues   </span> </div>     
+            <img class = "case-image no-padding" alt="A prototype of a calendar feature used to schedule automated datacenter operation tasks" src = "./assets/cover-automated.svg"> 
             </div>
     </a>
 
-
     <div class="vertical-line" id = "case-line"></div>
 
-    <a href = "./cases/team.html">
+    <a title = "Design Team Initiatives" alt = "The team website, conference installations, and external conferences" href = "./cases/team.html">
     <div class = "case">
             <div class = "flex-main"> <span class = "dates" > 2018-Present </span> </div>
             <div class = "flex-main"> <span class = "title" > Design Team Initiatives</span> </div>     
-            <div class = "flex-main"> <span class = "case-description" > The team website, conference installations, and side projects   </span> </div>     
-            <img class = "case-image no-padding" src = "./assets/cover-team.svg">           
+            <div class = "flex-main"> <span class = "case-description" > The team website, conference installations, and external conferences   </span> </div>     
+            <img class = "case-image no-padding" alt = "A mockup of the VMware design team's website, explaining that we design the digital foundation for applications and support a half million customers." src = "./assets/cover-team.svg">           
           </div>
-</a>
-    <div class = "footer flex-main">
-            <span class = "dates" > Designed & built by Molly Yee in 2021</span> 
-    </div>
+    </a>
+
+
+    <footer class = "flex-main" tabindex ="0">            
+        <span class = "dates" > Designed & built by Molly Yee in 2021</span> 
+    </footer>
+
 
 
 </div>
