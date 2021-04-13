@@ -60,7 +60,8 @@ a, a:hover{
 
 nav {
     padding: 30px 0 6px 0;
-    z-index: 10;
+    z-index: 20;
+    overflow: auto;
 }
 
 .home-buttons {

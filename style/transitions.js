@@ -2,34 +2,6 @@ var current= new Date()
 var time=current.getHours()
 var input = document.getElementById("pw-field");
 var button = document.getElementById("pw-button");
-// if(button){
-//     button.addEventListener("click", validate);
-// }
-// console.log("WORKS");
-
-// $(document).on('click', button, function() {
-//     if (input.value === 'molly') { 
-//         console.log("WORKS");
-//         //  window.open('./team.html');
-//       } else {  
-//          input.focus(); // <-- If you don't do this first, your select code won't work
-//          input.setSelectionRange(0, input.value.length);   
-//          alert('Invalid Password!'); 
-//       }
-// });
-
-
-// // function validate(){
-// //   if (input.value === 'molly') { 
-// //     console.log("WORKS");
-// //      // No need to add a "show" class. Just remove the "hidden" class.
-// //     //  window.open('./team.html');
-// //   } else {  
-// //      password.focus(); // <-- If you don't do this first, your select code won't work
-// //      password.setSelectionRange(0, password.value.length);   
-// //      alert('Invalid Password!'); 
-// //   }
-// // }
 
 
 function fadeIn(obj) {
@@ -74,17 +46,31 @@ window.onload = function sunRise(obj) {
         $("#circle").animate({"margin-top": "90px", "opacity": ".5"}, 2400);
         document.getElementById('greeting').innerHTML = "Good Morning";
         $("#greeting").animate({"opacity": '1'}, 1000);}
-// 8-11am morning
-    else if (time>=8 && time<=11) {
+// 8-10 morning
+    else if (time>=8 && time<=9) {
         $("#circle").animate({"margin-top": "60px", "opacity": ".5"}, 2400);
         document.getElementById('greeting').innerHTML = "Good Morning";
         $("#greeting").animate({"opacity": '1'}, 1000);}
 
-//11-5pm day
-    else if (time>=12 && time<=17) {
+// 10-11 morning
+else if (time>=10 && time<=11) {
+    $("#circle").animate({"margin-top": "-190px", "opacity": ".5"}, 2400);
+    document.getElementById('greeting').innerHTML = "Good Morning";
+    $("#greeting").animate({"opacity": '1'}, 1000);}        
+
+
+//12-4pm day
+    else if (time>=12 && time<=15) {
         $("#circle").animate({"margin-top": "-300px", "opacity": ".5"}, 2400);
         document.getElementById('greeting').innerHTML = "Good Afternoon";
         $("#greeting").animate({"opacity": '1'}, 1000);}
+
+
+//4-5pm day
+else if (time>=16 && time<=17) {
+    $("#circle").animate({"margin-top": "-240px", "opacity": ".5"}, 2400);
+    document.getElementById('greeting').innerHTML = "Good Afternoon";
+    $("#greeting").animate({"opacity": '1'}, 1000);}
 
 
 //5-8pm sunset start
@@ -92,7 +78,6 @@ window.onload = function sunRise(obj) {
         $("#circle").animate({"margin-top": "90px", "opacity": ".5"}, 2400);
         document.getElementById('greeting').innerHTML = "Good Evening";
         $("#greeting").animate({"opacity": '1'}, 1000);}
-
 
 //8pm-5am nighttime 
     else {
